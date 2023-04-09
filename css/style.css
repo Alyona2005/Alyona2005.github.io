@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+/*-------------------HEADER------------------------------*/
+.header{
+    margin: 0 auto;
+    position: absolute;
+    width: 1920px;
+    height: 949,1px;
+
+   
+
+}
+.section{
+
+}
+.header-menu{
+    width: 100%;
+    max-width: 1410px;
+    height: 48px;
+
+}
+.menu_list{
+
+}
+.menu_item{
+
+}
+.menu_link{
+
+}
+.banner{
+
+}
+.button{
+
+}
+
+
+/*-------------------MAIN--------------------------------------*/
