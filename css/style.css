@@ -9,39 +9,60 @@ html, body{
     height: 100%;
     width: 100%;
 }
+body{
+    
+}
 /*-------------------HEADER------------------------------*/
 .header{
-    margin: 0 auto;
-    position: absolute;
-    width: 1920px;
-    height: 949,1px;
-
-   
-
+    
+    height: 949.1px;
+    background-size: cover;
+    background: url('../img/Hero.jpg') center no-repeat;
+    padding-top: 15px;
 }
 .section{
-
 }
 .header-menu{
-    width: 100%;
+    
     max-width: 1410px;
-    height: 48px;
-
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .menu_list{
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+
 
 }
 .menu_item{
-
+    color: #08082A;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 12px;
 }
-.menu_link{
+.menu_text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700px;
+    font-size: 30px;
+    color: #FF5A09;
 
 }
 .banner{
 
-}
-.button{
 
+}
+.menu_button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: #08082A;
+}
+.header_text{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
 }
 
 
