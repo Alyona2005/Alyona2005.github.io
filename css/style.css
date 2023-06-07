@@ -11,7 +11,9 @@ html, body{
 }
 body{
     background-color: #f3f1ef;
-    
+    background: url(../img/Bg\ \(2\).jpg) repeat-y #fbfbfb;
+    background-position: top center;
+    background-size: 100% auto;
 }
 /*-------------------HEADER------------------------------*/
 .header{
@@ -26,15 +28,16 @@ body{
     padding: 0 10px;
 }
 .section{
-
+    max-width: 1430px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 .header-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 0;
-}
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;    
+    padding-left: 0;  }
 .menu{
 }
 
@@ -72,6 +75,10 @@ body{
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
+
+    /* max-width: 1430px;
+    margin: 0 auto;
+    padding: 0 10px; */
 }
 
 .menu_button{
@@ -88,7 +95,7 @@ body{
 .container_banner_text{
     max-width: 550px;
 }
-.container_banner_text h3{
+.container_banner_text h2{
     font-family: 'Playfair Display', serif;
     font-size: 100px;
     color: #08082A;
@@ -138,13 +145,10 @@ body{
 .main{
     background: url('../img/Hero.jpg') center no-repeat;
 }
-.container_menu{
+.menu{
     max-width: 1430px;
     margin: 0 auto;
     padding: 0 10px;
-}
-.menu{
-    
 }
 .Choose{
     width: 323px;
@@ -172,8 +176,8 @@ body{
     align-items: center;
     padding: 0 74px;
 }
-.Service_Design h3{
-    font-size: 40px;
+.Service_Design h2{
+    font-size: 45px;
     
 }
 
@@ -269,8 +273,8 @@ body{
     align-items: flex-end;
 }
 .TextC{
-    width: 500px;
-    font-size: 50px;
+    width: 520px;
+    font-size: 40px;
     font-family: 'Playfair Display', serif;
     color: #08082A;
 }
@@ -286,12 +290,24 @@ body{
     height: 64px;
     background-color: #FF5A09;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Carousel_button_1:hover{
+    background-color: #ffffff;
 }
 .Carousel_button_2{
     width: 64px;
     height: 64px;
     background-color: #FF5A09;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Carousel_button_2:hover{
+    background-color: #ffffff;
 }
 
 /*Carousel_items*/
@@ -350,6 +366,9 @@ body{
     border-radius: 15px;
     background-color: #08082A;
 }
+.priceC:hover{
+    background-color: #312366;
+}
 .Price_Cart{
     font-family: 'Rubik', sans-serif;
     font-size: 36px;
@@ -359,6 +378,11 @@ body{
     color: #E4F7FF;
     font-family: 'Rubik', sans-serif;
     font-size: 28px;
+    text-decoration: none;
+}
+
+.BtnC{
+    text-decoration: none;
 }
 .priceC{
     display: flex;
@@ -366,6 +390,7 @@ body{
     justify-content: center;
     margin-right: 20px;
 }
+
 .P1{
     color:#FF5B2E ;
 
@@ -384,6 +409,9 @@ body{
     padding: 0 10px;
   
     
+}
+.DtsRes{
+    text-decoration: none;
 }
 .Discover_block{
     width: 1410px;
@@ -414,6 +442,11 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.Discover_button:hover{
+    background-color: #FECC9F;
+}
+
 .DT{
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
@@ -469,13 +502,25 @@ body{
     width: 124px;
     padding: 0 120px 0 120px;
     height: 190px;
+    font-family: 'Rubik', sans-serif;
 }
 .pF{
     margin-top: 49px;
-    
+    list-style-type: none;
 }
-
-
+.pF li{
+    margin-bottom: 20px;
+}
+.OxLink{
+    text-decoration: none;
+}
+.LinkList{
+    text-decoration: none;
+}
+.PL{
+    color: #0f0f29;
+    font-family: 'Rubik', sans-serif;
+}
 
 
 
